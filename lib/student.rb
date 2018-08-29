@@ -50,5 +50,7 @@ class Student
     student = self.new(db[0], db[1], db[3])
     student 
   end 
+  
+  def self.find_by_name
 
 end
